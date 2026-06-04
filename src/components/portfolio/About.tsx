@@ -4,10 +4,10 @@ import { RevealLines, RevealText } from "./RevealText";
 import { SectionLabel } from "./SectionLabel";
 
 const STATS = [
-  { val: 8.1, suffix: "", label: "Current GPA" },
-  { val: 2, suffix: "nd", label: "Year B.Tech" },
-  { val: 5, suffix: "+", label: "Projects shipped" },
-  { val: 2, suffix: "", label: "Hackathons" },
+  { val: 8.1, suffix: "", label: "Current GPA", decimals: 1 },
+  { val: 2, suffix: "nd", label: "Year B.Tech", decimals: 0 },
+  { val: 5, suffix: "+", label: "Projects shipped", decimals: 0 },
+  { val: 2, suffix: "", label: "Hackathons", decimals: 0 },
 ];
 
 export function About() {
@@ -54,7 +54,7 @@ export function About() {
                 transition={{ duration: 0.7, delay: i * 0.08 }}
               >
                 <div className="font-display text-4xl font-bold text-[#f0ede6] md:text-5xl">
-                  <Counter to={s.val} suffix={s.suffix} />
+                  <Counter to={s.val} suffix={s.suffix} decimals={s.decimals} />
                 </div>
                 <div className="mt-2 font-body text-[10px] uppercase tracking-[0.3em] text-[#f0ede6]/50">{s.label}</div>
               </motion.div>
