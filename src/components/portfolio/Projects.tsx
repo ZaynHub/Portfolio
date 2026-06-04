@@ -7,6 +7,7 @@ import { SectionLabel } from "./SectionLabel";
 if (typeof window !== "undefined") gsap.registerPlugin(ScrollTrigger);
 
 const PROJECTS = [
+  { n: "00", title: "Medboro", stack: ["React", "Node.js", "MongoDB", "Tailwind"], blurb: "A full-stack healthcare platform connecting patients with doctors and medical services.", link: "https://medboro.vercel.app/" },
   { n: "01", title: "Spotify Clone", stack: ["React","Web Audio","CSS"], blurb: "Pixel-faithful Spotify rebuild with real playback.", link: "https://github.com/zaminlone" },
   { n: "02", title: "Fashion Webpage", stack: ["HTML","SCSS","GSAP"], blurb: "Editorial fashion landing with cinematic scroll.", link: "https://github.com/zaminlone" },
   { n: "03", title: "POP OS Clone", stack: ["CSS","Vanilla JS"], blurb: "Pop!_OS desktop recreated in the browser.", link: "https://github.com/zaminlone" },
