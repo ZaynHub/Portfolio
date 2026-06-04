@@ -4,7 +4,7 @@ import { ParticleField } from "./ParticleField";
 import { ScrambleText } from "./ScrambleText";
 import { MagneticButton } from "./MagneticButton";
 
-const ROLES = ["Full Stack Dev", "AI / ML", "GSoC Aspirant"];
+const ROLES = ["Website Developer", "AI / ML", "Aspiring Software Engineer"];
 
 export function Hero() {
   const [roleIdx, setRoleIdx] = useState(0);
@@ -73,7 +73,7 @@ export function Hero() {
       </motion.div>
 
       <div className="absolute bottom-8 left-6 hidden font-body text-[10px] uppercase tracking-[0.4em] text-[#f0ede6]/40 md:block">
-        NIT Srinagar / B.Tech CSE
+        SRM INSTITUTE OF SCIENCE & TECHNOLOGY, CHENNAI / B.Tech ECE
       </div>
       <div className="absolute bottom-8 right-6 hidden font-body text-[10px] uppercase tracking-[0.4em] text-[#f0ede6]/40 md:block">
         Portfolio © 2026

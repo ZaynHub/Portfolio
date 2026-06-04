@@ -3,11 +3,11 @@ import { useRef } from "react";
 import { SectionLabel } from "./SectionLabel";
 
 const ROLES = [
-  { co: "EliiGen", role: "Founding Engineer (Intern)", year: "2026", blurb: "Building AI-native product surfaces. Shipping fast, learning faster." },
+  { co: "ACM SIG AI", role: "Core Member", role2: "SRMIST", year: "2024", blurb: "Organised event websites, workshops, and student-led research circles." },
   { co: "NIT Srinagar", role: "AI / ML Research Intern", year: "2025", blurb: "Working on applied ML — deep learning experiments and dataset pipelines." },
-  { co: "ACM SIG AI", role: "Core Member", role2: "NIT Srinagar Chapter", year: "2025", blurb: "Organising AI/ML talks, workshops, and student-led research circles." },
-  { co: "Alumni Affairs", role: "Web & Tech Lead", year: "2025", blurb: "Built and maintain the alumni portal. Bridge between students and graduates." },
-  { co: "PLACFVs", role: "Outreach Coordinator", year: "2024", blurb: "Coordinated placement-prep verticals across batches." },
+  { co: "EliiGen", role: "Growth and Marketing manager (Intern)", year: "2026", blurb: "6+ podcast episodes in a single month, shoot, edit. Focussed on brand presence and audience engagement." },
+  { co: "Directorate of Alumni Affairs", role: " Team Lead", year: "2025-present", blurb: "Cracked multiple sponsorship deals for the flagship events. Bridge between students and graduates." },
+  { co: "PLACFVs", role: "Outreach Coordinator", year: "2025- present", blurb: "Volunteered for Placement drives, tech talks, evets conductde by top companies like Boeing, HCL, Infosys, TCL, many more" },
 ];
 
 export function Experience() {

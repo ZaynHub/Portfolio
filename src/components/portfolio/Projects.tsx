@@ -8,11 +8,11 @@ if (typeof window !== "undefined") gsap.registerPlugin(ScrollTrigger);
 
 const PROJECTS = [
   { n: "00", title: "Medboro", stack: ["React", "Node.js", "MongoDB", "Tailwind"], blurb: "A full-stack healthcare platform connecting patients with doctors and medical services.", link: "https://medboro.vercel.app/" },
-  { n: "01", title: "Spotify Clone", stack: ["React","Web Audio","CSS"], blurb: "Pixel-faithful Spotify rebuild with real playback.", link: "https://github.com/zaminlone" },
-  { n: "02", title: "Fashion Webpage", stack: ["HTML","SCSS","GSAP"], blurb: "Editorial fashion landing with cinematic scroll.", link: "https://github.com/zaminlone" },
-  { n: "03", title: "POP OS Clone", stack: ["CSS","Vanilla JS"], blurb: "Pop!_OS desktop recreated in the browser.", link: "https://github.com/zaminlone" },
-  { n: "04", title: "Mini CSS Sidebar", stack: ["CSS","JS"], blurb: "Animated minimal sidebar component, zero deps.", link: "https://github.com/zaminlone" },
-  { n: "05", title: "AI for Bharat", stack: ["Python","NLP","FastAPI"], blurb: "Indic-language AI assistant prototype.", link: "https://github.com/zaminlone" },
+  { n: "01", title: "Spotify Clone", stack: ["React","Web Audio","CSS"], blurb: "Pixel-faithful Spotify rebuild with real playback.", link: "https://github.com/ZaynHub/Project-Spotify" },
+  { n: "02", title: "Fashion Webpage", stack: ["HTML","SCSS","GSAP"], blurb: "Editorial fashion landing with cinematic scroll.", link: "https://github.com/ZaynHub/fashion-webpage" },
+  { n: "03", title: "POP OS Clone", stack: ["CSS","Vanilla JS"], blurb: "Pop!_OS desktop recreated in the browser.", link: "https://github.com/ZaynHub/POP-_OS-clone" },
+  { n: "04", title: "Mini CSS Sidebar", stack: ["CSS","JS"], blurb: "Animated minimal sidebar component, zero deps.", link: "https://github.com/ZaynHub/Mini-CSS-Project"},
+  { n: "05", title: "AI for Bharat", stack: ["Python","NLP","FastAPI"], blurb: "Indic-language AI assistant prototype.", link: "https://github.com/ZaynHub/Ai-for-bharat" },
 ];
 
 export function Projects() {

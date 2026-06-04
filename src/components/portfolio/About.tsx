@@ -7,7 +7,7 @@ const STATS = [
   { val: 8.1, suffix: "", label: "Current GPA", decimals: 1 },
   { val: 2, suffix: "nd", label: "Year B.Tech", decimals: 0 },
   { val: 5, suffix: "+", label: "Projects shipped", decimals: 0 },
-  { val: 2, suffix: "", label: "Hackathons", decimals: 0 },
+  { val: 2, suffix: "", label: "National level Hackathons", decimals: 0 },
 ];
 
 export function About() {
@@ -36,7 +36,7 @@ export function About() {
             delay={0.2}
             className="mt-8 max-w-xl font-body text-base leading-relaxed text-[#f0ede6]/70 md:text-lg"
             lines={[
-              "I'm a Computer Science undergrad at NIT Srinagar,",
+              "I'm a 2nd year B.Tech student at SRM Institute of Science and Technology, Chennai,",
               "shipping full-stack products and exploring AI / ML",
               "research on the side. I care about systems that feel",
               "fast, interfaces that feel inevitable, and code that",

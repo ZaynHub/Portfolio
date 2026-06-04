@@ -5,8 +5,8 @@ import { SectionLabel } from "./SectionLabel";
 const ITEMS = [
   { tag: "Guidewire DEVTrails", title: "Soar Phase Finalist", num: 18000, suffix: "+", unit: "Participants", sub: "4,500+ teams nationwide" },
   { tag: "COMPOSIT — IIT Kharagpur", title: "Ideathon Finalist", num: 900, suffix: "+", unit: "Teams", sub: "Top tier finalist cohort" },
-  { tag: "Innovatex'25 — NIT Srinagar", title: "Volunteer & Organiser", num: 10, suffix: "+", unit: "Companies", sub: "Tech festival operations" },
-  { tag: "Concepto'25 — IEEE SRMIST", title: "Top 10 Finalist", num: 10, suffix: "", unit: "Rank", sub: "Out of national applicants" },
+  { tag: "Innovatex'25 — SRMIST", title: "Volunteer & Organiser", num: 10, suffix: "+", unit: "Tech events", sub: "National level Tech festival operations" },
+  { tag: "Concepto'25 — IEEE SRMIST", title: "Top 10 Finalist", num: 4, suffix: "", unit: "Rank", sub: "Out of national applicants" },
 ];
 
 export function Achievements() {

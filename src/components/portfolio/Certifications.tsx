@@ -4,7 +4,7 @@ import { SectionLabel } from "./SectionLabel";
 const CERTS = [
   { title: "Python Bootcamp", from: "Udemy", year: "2024" },
   { title: "Full Stack Development", from: "Apna College", year: "2024" },
-  { title: "Innovatex'25", from: "ACM, NIT Srinagar", year: "2025" },
+  { title: "C Programming", from: "SRMIST", year: "2024" },
 ];
 
 export function Certifications() {

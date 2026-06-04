@@ -28,20 +28,21 @@ export function RevealText({ children, className = "", delay = 0, as = "h2" }: P
 
 export function RevealLines({ lines, className = "", delay = 0 }: { lines: string[]; className?: string; delay?: number; }) {
   return (
-    <div className={className}>
+    <motion.div className={className} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
       {lines.map((line, i) => (
         <span key={i} className="block overflow-hidden">
           <motion.span
             className="block"
-            initial={{ y: "110%" }}
-            whileInView={{ y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
+            variants={{
+              hidden: { y: "110%", opacity: 0 },
+              visible: { y: 0, opacity: 1 },
+            }}
             transition={{ duration: 0.9, delay: delay + i * 0.08, ease: [0.22, 1, 0.36, 1] }}
           >
             {line}
           </motion.span>
         </span>
       ))}
-    </div>
+    </motion.div>
   );
 }

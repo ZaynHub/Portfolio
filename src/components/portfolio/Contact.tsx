@@ -29,10 +29,10 @@ export function Contact() {
           <div className="mt-2 font-display text-xl text-[#f0ede6]">Srinagar, India</div>
         </div>
         <div className="flex gap-6">
-          <a href="https://github.com/zaminlone" target="_blank" rel="noreferrer" className="interactive font-body text-sm uppercase tracking-[0.3em] text-[#f0ede6]/60 transition-colors hover:text-[#00fff0]">
+          <a href="https://github.com/ZaynHub" target="_blank" rel="noreferrer" className="interactive font-body text-sm uppercase tracking-[0.3em] text-[#f0ede6]/60 transition-colors hover:text-[#00fff0]">
             GitHub ↗
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="interactive font-body text-sm uppercase tracking-[0.3em] text-[#f0ede6]/60 transition-colors hover:text-[#00fff0]">
+          <a href="https://www.linkedin.com/in/muhammad-zamin-81622a329" target="_blank" rel="noreferrer" className="interactive font-body text-sm uppercase tracking-[0.3em] text-[#f0ede6]/60 transition-colors hover:text-[#00fff0]">
             LinkedIn ↗
           </a>
         </div>
