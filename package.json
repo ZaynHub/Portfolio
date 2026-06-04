@@ -9,7 +9,8 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -91,5 +92,8 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^7.3.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
