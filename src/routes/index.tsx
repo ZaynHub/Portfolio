@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { lazy, Suspense, useEffect, useState } from "react";
 import { Cursor } from "@/components/portfolio/Cursor";
+import { CursorGlow } from "@/components/portfolio/CursorGlow";
 import { ScrollProgress } from "@/components/portfolio/ScrollProgress";
 import { SmoothScroll } from "@/components/portfolio/SmoothScroll";
 import { Nav } from "@/components/portfolio/Nav";
@@ -36,6 +37,7 @@ function Index() {
         <>
           <SmoothScroll />
           <Cursor />
+          <CursorGlow />
         </>
       )}
       <ScrollProgress />

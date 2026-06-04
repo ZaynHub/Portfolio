@@ -5,21 +5,22 @@ import { SectionLabel } from "./SectionLabel";
 const ITEMS = [
   { tag: "Guidewire DEVTrails", title: "Soar Phase Finalist", num: 18000, suffix: "+", unit: "Participants", sub: "4,500+ teams nationwide" },
   { tag: "COMPOSIT — IIT Kharagpur", title: "Ideathon Finalist", num: 900, suffix: "+", unit: "Teams", sub: "Top tier finalist cohort" },
-  { tag: "Innovatex'25", title: "Volunteer & Organiser", num: 10, suffix: "+", unit: "Companies", sub: "Tech festival, NIT Srinagar" },
+  { tag: "Innovatex'25 — NIT Srinagar", title: "Volunteer & Organiser", num: 10, suffix: "+", unit: "Companies", sub: "Tech festival operations" },
+  { tag: "Concepto'25 — IEEE SRMIST", title: "Top 10 Finalist", num: 10, suffix: "", unit: "Rank", sub: "Out of national applicants" },
 ];
 
 export function Achievements() {
   return (
     <section className="relative px-6 py-32 md:px-12 md:py-48">
       <SectionLabel num="06" label="Achievements" />
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
         {ITEMS.map((it, i) => (
           <motion.div
             key={it.title}
-            initial={{ opacity: 0, y: 60, clipPath: "inset(0 0 100% 0)" }}
-            whileInView={{ opacity: 1, y: 0, clipPath: "inset(0 0 0% 0)" }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 1, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.15 }}
+            transition={{ duration: 0.9, delay: i * 0.08, ease: [0.22, 1, 0.36, 1] }}
             className="interactive group relative flex flex-col justify-between overflow-hidden border border-[#f0ede6]/10 bg-[#111111] p-8 transition-colors hover:border-[#00fff0]/40 md:p-10"
           >
             <div className="font-body text-xs uppercase tracking-[0.4em] text-[#00fff0]">{it.tag}</div>
